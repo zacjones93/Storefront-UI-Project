@@ -1,6 +1,6 @@
 tasks:
   - init: >
-      yarn install &&
+      yarn &&
       yarn setup &&
       yarn server
 ports:
