@@ -238,14 +238,12 @@ let data: Product[] = [{
 
 async function main() {
     data.map(async (product) => {
-        await prisma.product.upsert({
-            where: { id: product.id },
-            update: {},
-            create: {
-                ...product
-            }
-        })
-    })
+      await prisma.product.create({
+          data: {
+              ...product
+          }
+      })
+  })
 }
 
 main()
