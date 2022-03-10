@@ -3,6 +3,7 @@ tasks:
       yarn &&
       yarn setup &&
       yarn server
+    openMode: split-right
 ports:
   - port: 3000
     onOpen: open-preview
