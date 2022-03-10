@@ -2,8 +2,6 @@
 [![first-timers-only Friendly](https://img.shields.io/badge/first--timers--only-friendly-blue.svg)](http://www.firsttimersonly.com/)
 [![Setup Automated](https://img.shields.io/badge/setup-automated-blue?logo=gitpod)](https://gitpod.io/from-referrer/)
 
-[Spin this project up in Gitpod](https://gitpod.io/#https://github.com/zacjones93/Storefront-UI-Project)
-
 # 🛠 Storefront UI Project
 
 This repo has the set up required to provide data to an application via an Express server. The project below details the what you could build. The idea here is that you can set up a frontend application project and consume the data provided here for the technology that you are learning.  
@@ -59,6 +57,8 @@ Write a technical blog post(s) on the key takeaways that you have for implementi
 If implementing the app requirements above wasn't enough, take this application a step further by adding routing to individual product pages.
 
 ## 🪜 Steps To Get Started
+
+[Spin this project up in Gitpod](https://gitpod.io/#https://github.com/zacjones93/Storefront-UI-Project) or follow the steps down below:
 
 1. Fork this project
 2. Run `yarn install`
