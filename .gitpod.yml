@@ -1,7 +1,7 @@
 tasks:
   - init: >
-      yarn install
-      yarn setup
+      yarn install &&
+      yarn setup &&
       yarn server
 ports:
   - port: 3000
