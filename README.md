@@ -56,7 +56,7 @@ If implementing the app requirements above wasn't enough, take this application 
 
 1. Fork this project
 2. Run `yarn install`
-3. Run `npx prisma migrate dev --name init`
+3. Run `yarn setup`
 4. Run `yarn server`
 5. Install the framework of your choosing
 6. Start implementing!

@@ -13,6 +13,7 @@
     "seed": "ts-node prisma/seed.ts"
   },
   "scripts": {
+    "setup": "npx prisma migrate dev --name init",
     "server": "nodemon server/index.ts"
   },
   "dependencies": {
