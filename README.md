@@ -1,8 +1,8 @@
-# Storefront UI Project
+# 🛠 Storefront UI Project
 
 This repo has the set up required to provide data to an application via an Express server. The project below details the what you could build. The idea here is that you can set up a frontend application project and consume the data provided here for the technology that you are learning.  
 
-## Project Description
+## 💡 Project Description
 
 The best way to solidify your learning is by actually taking the skills and knowledge you just acquired and apply it to a project. This proves to yourself and others that you actually absorbed the knowledge that you came to learn.
 
@@ -12,7 +12,7 @@ In addition to proving to yourself that you know a topic, it's important that yo
 
 With this in mind, we have prepared a project challenge for you below. There are two aspects to the challenge: the technical bits and communicating your expertise so others know you truly get it.
 
-## Project Brief
+## 📥 Project Brief
 
 You work for a contracting business and have been paired up with a designer to build out a website for a hardware store.
 
@@ -22,7 +22,7 @@ Your task is to display hardware products for users to browse and purchase. You'
 
 You've been given the freedom to use what tech stack that you want. Your team has been building out products in Vue so that is what has been stubbed out for you with the data available to get started.
 
-## App Requirements
+## 🗳 App Requirements
 
 1. Display all products on a page
 2. Product cards display key data
@@ -42,13 +42,17 @@ model Product {
 } 
 ```
 
-## Development Standards
+## 📊 Development Standards
 
 In addition to building out the application, it's written in your contract that you keep a development log and document the decisions that you make for the owner and future contractors.
 
 Write a technical blog post(s) on the key takeaways that you have for implementing features in this application. Each App Requirement can make a great post.
 
-## Steps To Get Started
+## 📈 Stretch Goal
+
+If implementing the app requirements above wasn't enough, take this application a step further by adding routing to individual product pages.
+
+## 🪜 Steps To Get Started
 
 1. Fork this project
 2. Run `yarn install`
@@ -57,11 +61,11 @@ Write a technical blog post(s) on the key takeaways that you have for implementi
 5. Install the framework of your choosing
 6. Start implementing!
 
-### Step 3. Prisma Output
+### ✅ Step 3. Prisma Output
 
 ![successful prisma database initiation](./assets/migration.sql%20%E2%80%94%20storefront-UI-project%202022-03-10%20at%2011.46.15%20AM.jpg)
 
-### Step 4. Test Server
+### ✅ Step 4. Test Server
 
 Send a request to the server to make sure you have a proper connection. I recommend installing the [VS Code Thunder Client](https://marketplace.visualstudio.com/items?itemName=rangav.vscode-thunder-client).
 
@@ -69,11 +73,7 @@ A successful request looks as follows:
 
 ![Successful request to server](./assets/localhost3000products%20%E2%80%94%20storefront-UI-project%202022-03-10%20at%2011.53.17%20AM.jpg)
 
-## Stretch Goal
-
-If implementing the app requirements above wasn't enough, take this application a step further by adding routing to individual product pages.
-
-## Using the Server REST API
+## ⚡️ Using the Server REST API
 
 The server will be running on `http://localhost:3000`. You can send API requests, e.g. `http://localhost:3000/products`
 
@@ -86,7 +86,7 @@ The server will be running on `http://localhost:3000`. You can send API requests
     - `skip` (optional): This specifies how many of the returned objects in the list should be skipped
 - `/products/:id`: Fetch product by it's `id`
 
-### POST 
+### POST
 
 - todo
 
@@ -98,7 +98,7 @@ The server will be running on `http://localhost:3000`. You can send API requests
 
 - todo
 
-## Design
+## 🎨 Design
 
 You've been paired up with a designer who has given you wire frames for your first iteration on the application. Reference them as you build out the application if you aren't sure how to make the page look.
 
@@ -112,6 +112,6 @@ A configuration like you see on the right works well but feel free to implement 
 
 ![Product page card](./assets/challenge-product-card.png)
 
-## Credits
+## ✨ Credits
 
 This project is an adaption of [Kevin Cunningham's vue-fundamentals-challenge](https://github.com/doingandlearning/vue-fundamentals-challenge).
